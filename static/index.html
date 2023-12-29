@@ -1,33 +1,96 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
-    <title>Belajar CI/CD untuk Pemula</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALI POST</title>
+
     <style>
         body {
-            background-color: #2D2D2D;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
         }
 
-        h1 {
-            color: #C26356;
-            font-size: 30px;
-            font-family: Menlo, Monaco, fixed-width;
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
         }
 
-        p {
-            color: white;
-            font-family: "Source Code Pro", Menlo, Monaco, fixed-width;
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .main-content {
+            display: flex;
+            justify-content: center; /* Menengahkan konten utama */
+            align-items: center; /* Menengahkan vertikal konten utama */
+            flex-wrap: wrap; /* Mengatasi jika lebar layar kecil */
+            padding: 20px;
+        }
+
+        article {
+            flex: 1;
+            margin: 0 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
         }
     </style>
 </head>
-
 <body>
-    <h1>Belajar CI/CD untuk Pemula</h1>
-    <p>Ini adalah contoh halaman HTML yang diserve melalui Golang server. Demo ini merupakan lanjutan dari video Part 1:
-        <a href="https://www.youtube.com/watch?v=v-pqoP6ro-8">belajar CI/CD pemula</a>, pastikan kamu tonton ini dulu
-        sebelum lanjut. Untuk menonton video devops, cloud, dan infrastruktur lainnya kalian bisa juga akses youtube
-        channel
-        <a href="https://www.youtube.com/user/girikuncoro">girikuncoro</a>
-    </p>
-</body>
+    <header>
+        <h1>BALI POST</h1>
+        <p>Selamat datang di website kami!</p>
+    </header>
 
+    <nav>
+        <ul>
+            <li><a href="#">Beranda</a></li>
+            <li><a href="#">Tentang Kami</a></li>
+            <li><a href="#">Kontak</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-content">
+        <article>
+            <h2>DENPASAR</h2>
+            <p>Temukan berita terbaru seputar Denpasar di sini!</p>
+        </article>
+
+        <article>
+            <h2>BADUNG</h2>
+            <p>Temukan berita terbaru seputar Badung di sini!</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Bali Post. All rights reserved.</p>
+    </footer>
+</body>
 </html>

@@ -10,4 +10,4 @@ RUN go build -o /belajar-cicd-pemula
 
 EXPOSE 3000
 
-CMD ["/belajar-cicd-pemula"]
+CMD ["/uas_cicd"]
